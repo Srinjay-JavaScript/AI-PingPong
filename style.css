@@ -1,0 +1,26 @@
+canvas {
+  border-radius: 15px;
+
+  border: dotted 5px white;
+}
+body {
+  background-color: black;
+  font-family: "Consolas";
+}
+.heading {
+  width: 100%;
+  font-size: 40px;
+  border-radius: 0px;
+  background-color: rgb(168, 106, 7);
+  padding: 1px;
+  color: white;
+  text-align: center;
+}
+.heading,
+h3 {
+  display: inline;
+}
+.heading,
+button {
+  float: right;
+}
