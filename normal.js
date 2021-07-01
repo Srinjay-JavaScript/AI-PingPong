@@ -25,6 +25,7 @@ function draw(){
 }
 function play(){
     started = true;
+    posenet.on('pose', get_result);
     document.getElementById('status').innerHTML = 'Status: Game has successfully launched.';
 
 }
